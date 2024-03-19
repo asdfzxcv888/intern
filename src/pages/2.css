@@ -1,0 +1,18 @@
+.doc-parent{
+    display: flex;
+    width: 30%;
+    margin: 10%;
+    background-color: aquamarine;
+    margin-top: 2%;
+
+}
+
+
+.doc-parent img{
+    width: 45%;
+
+}
+
+.doc-parent div{
+    margin-left: 5%;
+} 

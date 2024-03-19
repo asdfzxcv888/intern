@@ -1,0 +1,148 @@
+.welcome-div{
+    color: #006d00;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: inline-block;
+    width: 50%;
+
+}
+
+
+.Land-div{
+    margin-top: 2%;
+    display: inline-block;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.dr-img{
+    display: inline-block;
+    width: 20%;
+   
+
+}
+
+.round-holder{
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    /* height: 300px; */
+    width: 70%;
+    margin-left: 15%;
+}
+
+.round-div{
+    width: 15%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: lightgreen;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+    bottom: -100px;
+}
+
+.round-div p{
+
+    margin-top: 40%;
+    text-align: center;
+}
+
+.el{
+
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.el img{
+   width:30vw;
+}
+.el button{
+    color: darkgrey;
+}
+
+.second-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.seconditems{
+    width: 30%;
+    /* height: fit-content; */
+    margin: auto;
+    margin-top: 2%;
+    border: 0.1rem black solid;
+    background-color: skyblue;
+    position: relative;
+    border-radius: 2%px;
+    padding: 5px;
+}
+
+.seconditems img{
+    width:25%;
+    display: inline-block;
+    margin: auto;
+    margin-left: 10%;
+    
+}
+.seconditems div{
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.third-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.third{
+    width: 40%;
+    margin: auto;
+    background-color: lightpink;
+    margin-top: 10px;
+    border: 0.1rem black solid;
+    padding: 5px;
+
+   
+}
+.third div{
+   display: inline-block;
+   width: 50%;
+   margin-left: 10%;
+    
+}
+.third img{
+    height: 200px;
+    display: inline-block;
+}
+
+
+.customer-feedback{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.customer-feedback div{
+
+    width:30%;
+}
+
+.customer-feedback img{
+
+    width:20vw;
+    aspect-ratio: 1/1;
+    margin-left: 20%;
+    border-radius: 50%;
+}

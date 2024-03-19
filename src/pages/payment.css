@@ -1,0 +1,68 @@
+
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+    color: black;
+    margin-left: 25%;
+  }
+  
+
+  
+  /* PayPal button */
+  .paypal-button {
+    background-color: #3b7bbf;
+  }
+  
+  /* Prepayment button */
+  .prepayment-button {
+    background-color: #27ae60;
+  }
+  
+
+  .pay-success img{
+    display: block;
+    margin: auto;
+
+
+  }
+  .pay-success p{
+    display: block;
+    margin-left: 45%;
+    font-weight: bolder;
+    font-size: larger;
+
+
+  }

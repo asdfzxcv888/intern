@@ -1,0 +1,45 @@
+.navbar{
+    background-color: green;
+    display: flex;
+   
+}
+
+
+
+.navbar p{
+    display: inline-block;
+    margin-left: 5%;
+
+   
+   
+}
+
+.navbar input{
+    
+    width: 30%;
+    border: 0.1rem black solid;
+    
+    margin:auto;
+    aspect-ratio: 17/1;
+}
+
+.nav-btn-container{
+
+    display: flex;
+    
+    
+    text-overflow: hidden;
+    width: 30%;
+}
+
+.nav-btn-container a{
+    display: inline-block;
+
+    margin: auto;
+    
+}
+.nav-btn-container button{
+   
+   
+    border: 0.1rem black solid;
+}

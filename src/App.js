@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
 
+import React from 'react'
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { useGlobalContext } from './globalcontext/Useglobalcontext';
+import Landing from './pages/Landing';
+import Payment from './pages/Payment';
+import Profile from './pages/Profile';
+import Doctors from './pages/Doctors';
+import Navbar from './components/Navbar';
+import Appointment from './pages/Appointment';
+import Notfound from './pages/Notfound';
+import Contactinfo from './pages/Contactinfo';
+import Login from './pages/Login';
 function App() {
+
+  const {test}=useGlobalContext()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<><Navbar/><Outlet/><Contactinfo/></>}>
+      <Route path='/' element={<Landing/>}></Route>
+      <Route path='payment' element={<Payment/>}></Route>
+      <Route path='login' element={<Login/>}></Route>
+
+      <Route path='profile' element={<Profile/>}></Route>
+      <Route path='doctors' element={<Doctors/>}></Route>
+      <Route path='appointment' element={<Appointment/>}></Route>
+      <Route path='payment' element={<Payment/>}></Route>
+      
+      <Route path='*'  element={<Notfound/>}></Route>
+      </Route>
+      
+
+
+    </Routes>
+    </BrowserRouter>
   );
 }
 

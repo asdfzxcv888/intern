@@ -1,0 +1,34 @@
+.appointment p{
+    text-align: center;
+
+}
+.appointment h1{
+    text-align: center;
+
+}
+
+.app-form {
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    border: 0.5rem black solid;
+    border-radius: 1rem;
+
+}
+
+.app-form input{
+
+    margin-left:2%;
+    display: block;
+    width: 70%;
+}
+.app-form div {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.app-form label {
+
+    margin-left: 2%;
+}

@@ -1,0 +1,29 @@
+.doc1{
+
+color: darkgreen;
+text-align: center;
+font-weight: bold;
+font-size: xx-large;
+
+}
+.doc2{
+    text-align: center;
+    margin-top: 5%;
+
+}
+.doc-navbar{
+    margin-top: 5%;
+}
+
+.doc-navbar button{
+    margin-right: 7%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.doc-holder{
+    display: flex;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+}
